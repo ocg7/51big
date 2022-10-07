@@ -64,7 +64,7 @@ $(function () {
        localStorage.setItem('big_news_token',res.token)
       //  token的意思是令牌的意思(下一次去请求权限的接口的时候“带着”)
       // 固定写法：Bearer token字符串、Bearer译为持票人拿着token去请求
-       location.href = '/home.html'
+       location.href = '/index.html'
       }
     })
   })
